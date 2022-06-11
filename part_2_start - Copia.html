@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+       <title>Document</title>
+       
+    <style>
+      .container {
+        margin-left: 4rem;
+        margin-top: 4rem;
+        font-size:1rem;
+                       
+      }
+      
+      .container div {
+        width: 70px;
+        height: 60px;
+        border: 1px solid black;
+        display: inline-block
+        
+                    
+      }
+      .container div:nth-child(even) {
+        border-color: rgb(243, 12, 12);   
+        border-style:groove ; 
+        border-width: medium;
+        }
+      
+        .green span:nth-child(2n){
+          color: green;
+        }
+
+        #blue:last-of-type{
+          color: blue;
+        }
+        
+        .yellow :nth-last-of-type(n+2){
+
+          color: yellow;
+
+        }
+
+        .absolute {
+          position:relative;
+         
+          top: 62px;
+         left: 30px;
+          
+        }
+        .absolute1 {
+          position: relative;
+          bottom: 20px;
+          left:17px
+          
+                    
+        }
+
+        
+        .sinistra {
+          position: relative;
+          left: -3.7em;
+          top:1.5em;
+
+        }
+        .left {
+          position: relative;
+          left: 2em;
+          top: 20px;
+                              
+        }
+       
+
+
+        
+       
+        
+    </style>
+  </head>
+  <body>
+  
+    <div class="container" >
+      <div  class="green">
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span >C</span>
+        <span class="sinistra">D</span>
+      </div>
+      <div >
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span >C</span>
+        <span id="blue">D</span>
+      </div>
+      <div class="green">
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="green">
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="yellow">
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="green">
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div class="green">
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span>D</span>
+      </div>
+      <div>
+        <span class="absolute">A</span>
+        <span class="absolute1">B</span>
+        <span>C</span>
+        <span class="left">D</span>
+      </div>
+    </div>
+  </body>
+</html>

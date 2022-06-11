@@ -1,0 +1,62 @@
+style.css
+.container {
+    margin-left: 4rem;
+    margin-top: 4rem;
+            
+  }
+  .container div {
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    display: inline-block
+                
+  }
+  .container div:nth-child(even) {
+    border-color: rgb(243, 12, 12);   
+    border-style:groove ; 
+    border-width: medium;
+    }
+  
+    .green span:nth-child(2n){
+      color: green;
+    }
+
+    #blue:last-of-type{
+      color: blue;
+    }
+    
+    .yellow :nth-last-of-type(n+2){
+
+      color: yellow;
+
+    }
+
+    .absolute {
+      position: absolute;
+      bottom: -0px;
+      margin-top: 20px;
+      margin-bottom: 420px;
+      margin-left: 20px;
+      
+    }
+    .absolute1 {
+      position: absolute;
+      top: -0px;
+      margin-top: 34px;
+      margin-left: 20px;
+                
+    }
+
+    .right {
+      position: absolute;
+      margin-right: 70px;
+      margin-top: 20px;
+                
+    }
+
+    .left {
+      position: absolute;
+      margin-left: 90px;
+      margin-top: 20px;
+                          
+    }
